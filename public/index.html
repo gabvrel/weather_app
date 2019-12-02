@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Final Api</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Weather app</h1>
+        <a href="/">enter</a> | <a href='/logg/index.html'>list</a>
+        <p>
+            latitude: <span id='latitude'></span>&deg;<br />
+            longitude: <span id='longitude'></span>&deg;
+        </p>
+        <p>The Weather in <span id="loc"></span> is <span id="summary"></span>
+        with a temperature of <span id="temperature"></span> degrees farenheit.<br/>
+        The concentration of particulate matter (<span id="aq_matter"></span>) is <span id="aq_value"></span>
+        <span id="aq_units"></span> last read on <span id="aq_date"></span>
+
+        </p>
+        <button id="check_in">Check in</button>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
